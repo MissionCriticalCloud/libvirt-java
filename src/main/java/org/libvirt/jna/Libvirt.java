@@ -330,6 +330,8 @@ public interface Libvirt extends Library {
 
     int virDomainSnapshotNum(DomainPointer virDomainPtr, int flags);
 
+    int virDomainMigrateStartPostCopy(DomainPointer virDomainPtr, int flags);
+
     int virDomainSuspend(DomainPointer virDomainPtr);
 
     int virDomainUndefine(DomainPointer virDomainPtr);
