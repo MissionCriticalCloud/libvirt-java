@@ -1,3 +1,5 @@
+[![Build Status](https://beta-jenkins.mcc.schubergphilis.com/job/libvirt-java/badge/icon)](https://beta-jenkins.mcc.schubergphilis.com/job/libvirt-java/)
+
 # libvirt-java
 
 The `libvirt` JNA bindings. Forked from `http://libvirt.org/git/?p=libvirt-java.git`.

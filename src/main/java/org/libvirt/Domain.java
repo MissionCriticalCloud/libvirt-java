@@ -1433,4 +1433,8 @@ public class Domain {
     public int updateDeviceFlags(String xml, int flags) throws LibvirtException {
         return processError(libvirt.virDomainUpdateDeviceFlags(VDP, xml, flags));
     }
+
+    public int startPostCopy(int flags) throws LibvirtException {
+        return processError(libvirt.virDomainMigrateStartPostCopy(VDP, flags));
+    }
 }
